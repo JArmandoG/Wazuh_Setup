@@ -1,5 +1,3 @@
-# Wazuh_Setup
-
 ## Convert .ps1 script to .exe
 
 Tool used: [PS2EXE](https://www.powershellgallery.com/packages/ps2exe/1.0.10)
