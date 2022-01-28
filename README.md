@@ -37,5 +37,3 @@ Logpulls < S3 buckets (Cloudtrails, etc. except AWS Inspector)
 ## Groups/Users Setup
 
 [Agent groups and centralized configuration · Wazuh · The Open Source Security Platform](https://wazuh.com/blog/agent-groups-and-centralized-configuration/)
-
-https://cloud.malwarebytes.com/download?t=yv9-nbVbkC_tabnRtwbYmjqwJU-1UJPUyEhE-kK2vfVkMkRZIj746R3zB9xyIeJv8H63XndcwaZldzXWuJhuqP2W9tXqjRahqq8_kS_NAKxV&via=copy&source=Downloads%20Page
