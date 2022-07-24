@@ -1,14 +1,14 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 #
-# Authored by Jeremy Phillips <jeremy@uranusbytes.com>
+# Forked by JAG from Jeremy Phillips <jeremy@uranusbytes.com>
 # Copyright: Apache License 2.0
 #
 # Wrapper around prowler script to parse results and forward to Wazuh
 # Prowler - https://github.com/toniblyx/prowler
 #
-# TODO: Add ability to disable different groups (EXTRA, etc...
-# TODO: Allow to disable individual checks
-# TODO: Remove all the commented out stuff
+# CHANGES: Works for Newer Versions of Wazuh/OSSEC
+#
+# TODO: Put all checks and Prowler's args in global variables
 #
 # Error Codes:
 #   1 - Unknown
@@ -42,7 +42,6 @@ TEMPLATE_CHECK = '''
   "prowler": {0}
 }}
 '''
-#TEMPLATE_CHECK = "{{\"integration\":\"prowler\",\"prowler\":{0}}}"
 TEMPLATE_MSG = '1:Wazuh-Prowler:{0}'
 TEMPLATE_ERROR = '''{{
   "aws_account_id": {aws_account_id},
